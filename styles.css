@@ -1,0 +1,23 @@
+ body {
+     background-color: black
+ }
+
+ #homeDiv {
+     width: 100%;
+     text-align: center;
+     position: relative;
+     top: 240px;
+ }
+
+ h1{
+     color: white;
+     font-family: "Helvetica"
+ }
+
+ a {
+     color: blue;
+     font-size: 200%;
+     padding-right: 20px;
+     padding-left: 20px;
+     text-decoration: none;
+ }
