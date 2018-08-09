@@ -32,28 +32,33 @@
     top: 300px;
 }
 
+#portfolioItem {
+    padding-right: 100%;
+    padding-bottom: 130px;
+    position: relative;
+}
+
  #portfolioImg {
      height: 230px;
      width: 400px;
-     padding-right: 100%;
-     padding-bottom: 130px;
-     position: relative;
      top: 20px;
      left: 50px;
+     position: relative;
  }
  #portfolioTitle {
     font-size: 200%;
     position: relative;
-    left: 150px;
+    left: -275px;
     color: white;
-    top: -400px;
+    top: -225px;
+    text-decoration: none;
  }
 
  #portfolioText {
     position: relative;
     left: 500px;
     color: white;
-    top: -400px;
+    top: -230px;
     width: 700px;
     font-size: 125%;
  }
