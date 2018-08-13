@@ -1,82 +1,82 @@
- body {
-     background-color: black
- }
+body {
+    background-color: black
+}
 
- #homeDiv {
-     width: 100%;
-     text-align: center;
-     position: relative;
-     top: 240px;
-     font-family: "Helvetica";
-     height: 100vh;
- }
-
- #portfolio {
-     height: 300px;
- }
-
- #portfolioHeader {
-     font-size: 200%;
-     color: blue;
-     width: 100%;
-     text-align: center;
-     font-family: "Helvetica";
-     position: relative;
-     top: 275px;
- }
-
- #portfolioArrow {
-    width: 25px;
-    height: 25px;
+#homeDiv {
+    width: 100%;
+    text-align: center;
     position: relative;
-    top: 300px;
+    top: 150px;
+    font-family: "Helvetica";
+    height: 100vh;
+}
+
+#portfolio {
+    height: 300px;
+}
+
+#portfolioHeader {
+    font-size: 200%;
+    color: blue;
+    width: 100%;
+    text-align: center;
+    font-family: "Helvetica";
+    position: relative;
+    top: 205px;
+}
+
+#portfolioArrow {
+   width: 25px;
+   height: 25px;
+   position: relative;
+   top: 200px;
 }
 
 #portfolioItem {
-    padding-right: 100%;
-    padding-bottom: 130px;
-    position: relative;
+   padding-right: 100%;
+   padding-bottom: 130px;
+   position: relative;
 }
 
- #portfolioImg {
-     height: 230px;
-     width: 400px;
-     top: 20px;
-     left: 50px;
-     position: relative;
- }
- #portfolioTitle {
+#portfolioImg {
+    height: 230px;
+    width: 400px;
+    top: 20px;
+    left: 50px;
+    position: relative;
+}
+#portfolioTitle {
+   font-size: 200%;
+   position: relative;
+   left: -275px;
+   color: white;
+   top: -225px;
+   text-decoration: none;
+}
+
+#portfolioText {
+   position: relative;
+   left: 500px;
+   color: white;
+   top: -230px;
+   width: 700px;
+   font-size: 125%;
+}
+
+h1{
+    color: white;
+    font-family: "Palatino";
+    font-size: 320%;
+}
+
+#navLink {
+    color: blue;
     font-size: 200%;
-    position: relative;
-    left: -275px;
-    color: white;
-    top: -225px;
+    padding-right: 75px;
+    padding-left: 75px;
     text-decoration: none;
- }
+}
 
- #portfolioText {
-    position: relative;
-    left: 500px;
-    color: white;
-    top: -230px;
-    width: 700px;
-    font-size: 125%;
- }
-
- h1{
-     color: white;
-     font-family: "Palatino";
-     font-size: 320%;
- }
-
- #navLink {
-     color: blue;
-     font-size: 200%;
-     padding-right: 75px;
-     padding-left: 75px;
-     text-decoration: none;
- }
-
- #grey {
-     color: grey
- }
+#grey {
+    color: grey
+}
