@@ -22,14 +22,30 @@ body {
     text-align: center;
     font-family: "Helvetica";
     position: relative;
-    top: 205px;
+    top: 150px;
 }
+
+#matrixImg {
+    position: relative;
+    top: 100px;
+    opacity: 0.7;
+    box-shadow: 10px 10px 50px blue;
+}
+
+#portfolioTitle {
+    font-size: 200%;
+    position: relative;
+    left: -275px;
+    color: white;
+    top: -225px;
+    text-decoration: none;
+ }
 
 #portfolioArrow {
    width: 25px;
    height: 25px;
    position: relative;
-   top: 200px;
+   top: 150px;
 }
 
 #portfolioItem {
@@ -44,14 +60,6 @@ body {
     top: 20px;
     left: 50px;
     position: relative;
-}
-#portfolioTitle {
-   font-size: 200%;
-   position: relative;
-   left: -275px;
-   color: white;
-   top: -225px;
-   text-decoration: none;
 }
 
 #portfolioText {
@@ -69,11 +77,26 @@ h1{
     font-size: 320%;
 }
 
+#navImg {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    right: 45px;
+    opacity: 0.5;
+    transition: 0.4s ease;
+}
+
+#navImg:hover {
+    transform: scale(1.6);
+    opacity: 1;
+}
+
 #navLink {
     color: blue;
     font-size: 200%;
-    padding-right: 75px;
-    padding-left: 75px;
+    padding-right: 100px;
+    padding-left: 100px;
     text-decoration: none;
 }
 
