@@ -7,7 +7,7 @@ body {
     width: 100%;
     text-align: center;
     position: relative;
-    top: 150px;
+    top: 0px;
     font-family: "Helvetica";
     height: 100vh;
 }
@@ -19,8 +19,7 @@ body {
 
 #portfolio {
     height: 100vh;
-    padding-top: 100px;
-
+    padding-top: 255px;
 }
 
 #portfolioHeader {
@@ -30,7 +29,7 @@ body {
     text-align: center;
     font-family: "Helvetica";
     position: relative;
-    top: -50px;
+    top: -10px;
 }
 
 #headshot {
@@ -68,7 +67,7 @@ body {
    width: 25px;
    height: 25px;
    position: relative;
-   top: -100px;
+   top: -10px;
 }
 
 #portfolioItem {
