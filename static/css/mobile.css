@@ -3,35 +3,64 @@ body {
     background-image: url("/img/fractals.jpg");
 }
 
+#headerText {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 100%;
+}
+
+#navbar {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+}
+
 #navImg {
     width: 50px;
     height: 50px;
     position: relative;
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 0px;
     opacity: 0.5;
+    left: 0px;
     transition: 0.4s ease;
 }
 
 #navLink {
-    padding-right: 40px;
-    padding-left: 20px;
-    left: 30px;
+    padding-right: 33px;
+    padding-left: 33px;
+    left: 0px;
 }
 
 h1 {
+    position: fixed;
     font-size: 220%;
+}
+
+#headerText {
+    position: fixed;
+    top: 90px;
+}
+
+#navbar {
+    position: fixed;
+    top: 90px;
 }
 
 #matrixImg {
     width: 80%;
     height: 210px;
+    top: 175px;
 }
 
 #headshot { 
     width: 150px;
     height: 150px;
-    top: -75px;
+    top: 0px;
 }
 
 #portfolioText {
