@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: black;
     background-image: url("/img/fractals.jpg");
 }
 
@@ -25,15 +25,16 @@ body {
     position: relative;
     top: 30px;
     right: 0px;
-    opacity: 0.5;
+    opacity: 0.7;
     left: 0px;
     transition: 0.4s ease;
 }
 
-#navLink {
+.navLink {
     padding-right: 33px;
     padding-left: 33px;
     left: 0px;
+    z-index: 2;
 }
 
 h1 {
@@ -41,26 +42,32 @@ h1 {
     font-size: 220%;
 }
 
+header{
+    position: fixed;
+}
+
 #headerText {
     position: fixed;
-    top: 90px;
+    top: 55px;
 }
 
 #navbar {
     position: fixed;
-    top: 90px;
+    top: 60px;
 }
 
 #matrixImg {
-    width: 80%;
-    height: 210px;
-    top: 175px;
+    width: 100%;
+    height: 110px;
+    top: 45px;
+    position: fixed;
+    z-index: -1;
 }
 
 #headshot { 
     width: 150px;
     height: 150px;
-    top: 0px;
+    top: 200px;
 }
 
 #portfolioText {
@@ -80,9 +87,9 @@ h1 {
 }
 
 #portfolioArrow {
-    top: 100px
+    top: 300px
 }
 
 #portfolioHeader {
-    top: 100px
+    top: 300px
 }
