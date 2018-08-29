@@ -126,8 +126,8 @@ h1{
 .navLink {
     color: blue;
     font-size: 200%;
-    padding-right: 140px;
-    padding-left: 90px;
+    padding-right: 10%;
+    padding-left: 10%;
     text-decoration: none;
     position: relative;
     left: 60px;

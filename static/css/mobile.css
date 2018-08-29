@@ -31,8 +31,8 @@ body {
 }
 
 .navLink {
-    padding-right: 33px;
-    padding-left: 33px;
+    padding-right: 5%;
+    padding-left: 5%;
     left: 0px;
     z-index: 2;
 }
