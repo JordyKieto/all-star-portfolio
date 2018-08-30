@@ -6,3 +6,6 @@ headerText.textContent = skills[3];
 setInterval(function() {
     headerText.textContent = skills[Math.floor(Math.random() * skills.length)]
 }, 4500)
+
+arrow = document.getElementById("portfolioArrow")
+arrow.onclick = function() {window.scrollTo({ top: 750, behavior: 'smooth' })}
