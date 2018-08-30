@@ -63,7 +63,7 @@ header{
 #headshot { 
     width: 150px;
     height: 150px;
-    top: 200px;
+    top: 150px;
 }
 
 #portfolioText {
@@ -83,7 +83,7 @@ header{
 }
 
 #portfolioArrow {
-    top: 300px
+    top: 200px
 }
 
 #portfolioHeader {
