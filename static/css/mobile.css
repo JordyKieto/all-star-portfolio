@@ -40,6 +40,7 @@ h1 {
 
 header{
     position: fixed;
+    height: 45px;
 }
 
 #headerText {

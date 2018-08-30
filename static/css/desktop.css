@@ -1,9 +1,11 @@
 header {
     background: rgba(0, 0, 0, 0.6);
     height: 70px;
-    position: relative;
-    top: -30px;
-    width: 100%
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    line-height: 0px;
 }
 
 body {
@@ -25,6 +27,7 @@ body {
     font-size: 150%;
     position: fixed;
     left: 50%;
+    top: 200px;
     right: 50%;
     margin-left: -50%;
     margin-right: -50%;
@@ -47,7 +50,7 @@ body {
 
 #headshot {
     position: relative;
-    top: 270px;
+    top: 400px;
     opacity: 0.7;
     transition: 0.3s ease;
 }
@@ -82,7 +85,7 @@ body {
    width: 75px;
    height: 75px;
    position: relative;
-   top: 400px;
+   top: 500px;
 }
 
 #portfolioItem {
@@ -142,6 +145,7 @@ h1{
 #navbar {
     position: fixed;
     display: block;
+    top: 50px;
     width: 100%;
     z-index: 3;
 }
