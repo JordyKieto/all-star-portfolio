@@ -1,3 +1,4 @@
+const Module = (()=>{
 headshot = document.getElementById("matrixImg")
 headerText = document.getElementById("headerText")
 skills = ["The morning coder...", "The Express Makeover...", "The Reactive Redux...", "Toronto Web Developer...",
@@ -9,3 +10,4 @@ setInterval(function() {
 
 arrow = document.getElementById("portfolioArrow")
 arrow.onclick = function() {window.scrollTo({ top: 750, behavior: 'smooth' })}
+})();
