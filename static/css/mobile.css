@@ -67,18 +67,18 @@ header{
     top: 150px;
 }
 
-#portfolioText {
+.portfolioText {
     top: 0px;
     left: 0px;
     width: 100%;
 }
 
-#portfolioImg {
+.portfolioImg {
     width: 90%;
     left: 25px;
 }
 
-#portfolioTitle {
+.portfolioTitle {
     left: 10px;
     top: -280px;
 }

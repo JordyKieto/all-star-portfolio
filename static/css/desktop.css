@@ -72,10 +72,10 @@ body {
     margin-right: auto;
 }
 
-#portfolioTitle {
+.portfolioTitle {
     font-size: 200%;
     position: relative;
-    left: -275px;
+    left: -245px;
     color: white;
     top: -225px;
     text-decoration: none;
@@ -88,12 +88,12 @@ body {
    top: 500px;
 }
 
-#portfolioItem {
+.portfolioItem {
    position: relative;
    padding-bottom: 100px;
 }
 
-#portfolioImg {
+.portfolioImg {
     height: 230px;
     width: 400px;
     top: 20px;
@@ -101,7 +101,7 @@ body {
     position: relative;
 }
 
-#portfolioText {
+.portfolioText {
    position: relative;
    left: 500px;
    color: white;
