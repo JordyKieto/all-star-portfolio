@@ -10,7 +10,7 @@ header {
 
 body {
     background-color: black;
-    background-image: url("/img/fractals.jpg");
+    background-image: url("/static/img/fractals.jpg");
 }
 
 #homeDiv {
